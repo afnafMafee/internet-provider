@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?e39d101003154b3ec1d5925fd1656f20") format("truetype"),
+url("./flaticon.woff?e39d101003154b3ec1d5925fd1656f20") format("woff"),
+url("./flaticon.woff2?e39d101003154b3ec1d5925fd1656f20") format("woff2"),
+url("./flaticon.eot?e39d101003154b3ec1d5925fd1656f20#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e39d101003154b3ec1d5925fd1656f20#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "wifi": "\f101",
+    "television": "\f102",
+    "router": "\f103",
+    "verified": "\f104",
+    "tv-box": "\f105",
+    "live-streaming": "\f106",
+    "live": "\f107",
+    "play-button": "\f108",
+);
+
+.flaticon-wifi:before {
+    content: map-get($flaticon-map, "wifi");
+}
+.flaticon-television:before {
+    content: map-get($flaticon-map, "television");
+}
+.flaticon-router:before {
+    content: map-get($flaticon-map, "router");
+}
+.flaticon-verified:before {
+    content: map-get($flaticon-map, "verified");
+}
+.flaticon-tv-box:before {
+    content: map-get($flaticon-map, "tv-box");
+}
+.flaticon-live-streaming:before {
+    content: map-get($flaticon-map, "live-streaming");
+}
+.flaticon-live:before {
+    content: map-get($flaticon-map, "live");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}

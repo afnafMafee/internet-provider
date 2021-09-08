@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Catamaran', sans-serif;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/************************************************
+Navbar
+************************************************/
+#navbar-area{
+    background:#10142D;
+}
+.primary-menu li {
+    padding: 0 15px;
+    
+  }
+.primary-menu li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+.dropdown {
+    padding: 0;
+    list-style: none;
+    width: 154px;
+    top: 110%;
+    position: absolute;
+    left: -29px;
+    background: #fafafa;
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s ease-in-out;
+    border-top: 2px solid#FF4328;
+  }
+  .dropdown li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    
+  }
+  
+  .dropdown li a {
+    font-size: 24px;
+  }
+.primary-menu li:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+}
+.btn-primary{
+    background: #fff;
+    color: #000;
+    border:none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .5s;
+}
+.btn-primary:hover{
+    background: #FF4328;
+    border-radius: 0px 30px;
+}
+
+.fas.fa-sort-down {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .navbar-toggler{
+      background: #fff;
+  }
+  /************************************************
+Banner-area
+************************************************/
+#banner-area{
+    background: #10142D;
+}
+
+
+.inner-banner {
+    margin-top: 100px;
+  }
+  
+.inner-banner h1 {
+    font-size: 65px;
+    width: 523px;
+    color: #fff;
+  }
+ 
+  .inner-banner p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .inner-banner {
+    margin-top: 179px;
+  }
+  .finix-text{
+    text-align: center;
+  }
+  .finix-text p{
+    color: #FF4328;
+    font-size: 22px;
+    font-weight: 500;
+
+  }
+  .finix-text h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.card-wrp{
+  
+    width: 410px;
+    height: 310px;
+  
+    border:none;
+
+}
+
+.card-wrp span {
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 18px;
+}
+.card-wrp span {
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  top: 8px;
+}
+.card-wrp:hover{
+  background: #FF4328;
+  transition: .5s;
+ 
+}
+.card-wrp:hover
+span{
+  color: #fff;
+}
+.card-wrp:hover
+h4{
+  color: #fff;
+}
+.card-wrp:hover
+p{
+  color: #fff;
+}
+.card-wrp:hover
+a{
+  background: #fff !important;
+  color: #000;
+}
+.btn-secound{
+  background: #FF4328;
+  border:none;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .5s;
+    color: #fff;
+    border:none;
+    display:inline-block;
+}
+.btn-secound:hover{
+border-radius: 0 25px;
+
+}
+.card-in {
+  position: relative;
+  top: -16px;
+}
+.about-img {
+  position: relative;
+}
+.about-img img{
+  z-index: 1;
+}
+.orange-area {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: orange;
+  left: -21px;
+  bottom: 6px;
+  z-index: -1;
+}
+
+.about-text {
+  margin-top: 100px;
+  position: relative;
+  left: 52px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+left: 13px;
+}
+.about-text ul li {
+  font-size: 20px;
+  position: relative;
+}
+.about-text li::before{
+  content: '\f058';
+  position: absolute;
+  font-weight: 600;
+  font-family: 'Font Awesome 5 free';
+  color: #FF4328;
+  margin-left: -25px;
+  display: inline-block;
+}
+.finix-text h2 {
+  font-size: 45px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.inner-services {
+  width: 412px;
+  height: 227px;
+  background: #F4F8FC;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  transition: .6s;
+}
+.inner-services:hover{
+  background: #FF4328;
+  color:#fff;
+  
+}
+.inner-services:hover span{
+ 
+  color:#fff;
+  
+}
+.inner-services:hover a{
+  background: #fff;
+
+}
+
+.service-icon span {
+  display: inline-block;
+  font-size: 50px;
+  margin-right: 19px;
+  margin-top: 27px;
+  color:#FF4328;
+}
+.service-text {
+  width: 80%;
+  float: left;
+  margin-top: 17px;
+}
+.pricing-card {
+  width: 415px;
+  height: 550px;
+  border:none;
+  overflow: hidden;
+}
+
+.pricing-card span {
+  text-align: center;
+  font-size: 40px;
+}
+.pricing-card strong {
+  text-align: center;
+  font-size: 27px;
+}
+.card-content{
+  text-align: center;
+}
+.card-content ul {
+  list-style: none;
+  padding: 0;
+}
+.card-content ul li {
+  font-size: 21px;
+  padding: 7px 0;
+}
+.card-content h3 {
+  font-size: 49px;
+  color: #FF4328;
+}
+.rotate-content {
+  background: #FF4328;
+  width: 167px;
+  height: 30px;
+  position: absolute;
+  left: 5;
+  top: 18px;
+  left: 283px;
+  transform: rotate(45deg);
+}
+
+.inner-featured.text-center span {
+  color: red;
+  font-size: 45px;
+  display: inline-block;
+}
+.inner-featured.text-center {
+  width: 363px;
+}
+.testi-text p {
+  color:#FF4328;
+  font-size: 22px;
+  font-weight: 500;
+}
+.testi-text h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.inner-testimonial p {
+  font-size: 20px;
+  color: #666;
+}
+.inner-testimonial span {
+  color:#FF4328;
+  font-size: 22px;
+}
+.testi {
+  margin-top: 128px;
+}
+#news{
+  background: #10142D;
+  color: #fff;
+}
+
+.inner-news.text-center p {
+  font-size: 20px;
+}
+.inner-news.text-center h2 {
+  font-size: 35px;
+  /*! width: 550px; */
+  font-weight: 600;
+}
+.inner-news.text-center button {
+  margin-right: 22px;
+}
+
+.form-head h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.inner-form input {
+  width: 70%;
+  border: 1px solid #FF4328;
+  margin-bottom: 10px;
+}
+.inner-form label {
+  margin-bottom: 18px;
+}
+.inner-form {
+  margin-top: 100px;
+}
+
+.card-img-top {
+  border-radius: 0px 43px 0px 0px;
+}
+.inner-blog i {
+  color: red;
+}
+.inner-blog span {
+  display: inline-block;
+  margin-right: 38px;
+}
+.inner-blog h4 {
+
+  margin-top: 13px;
+}
+.inner-blog a {
+  color: red;
+  text-decoration: none;
+}
+#footer{
+  background:#10142D;
+  color:#fff;
+  padding:45px 0;
+}
+
+
+.inner-footer i {
+  display: inline-block;
+  margin-right: 12px;
+}
+.inner-footer  ul li {
+  padding: 7px;
+  font-size: 17px;
+}
